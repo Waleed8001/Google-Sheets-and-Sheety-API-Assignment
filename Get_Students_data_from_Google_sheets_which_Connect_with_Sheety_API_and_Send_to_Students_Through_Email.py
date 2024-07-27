@@ -12,7 +12,7 @@ spreadsheet_url = '16mwEuj1VgI0SdUHA1G1ezJ-rKOKbf_zawZjLXiYyUD4'
 
 smtpgmail = 'smtp.gmail.com'
 myemail = 'waleedkamal801@gmail.com'
-password = 'kuep ufnk icfr pmwi'
+password = 'my_password'
 emailport = 587
 
 def getdata():
