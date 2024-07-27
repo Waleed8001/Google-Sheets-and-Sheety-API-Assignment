@@ -1,6 +1,6 @@
 # Google Sheets and Sheety API Assignment
-This is an assignment in which I connect Google Sheet with Sheety API to Send Email to the Students in which the major work in the assignment is:
-1. Add Status and Date of Interview after taking data from Google Sheets.
-2. Status and Date of Interview depends on the number scored by Students.
-3. After adding Status and Date of Interview we will retrieve data again from the same sheet to send email to the Student.
-4. Finally the Email sent to the Students for giving update that they have passed or failed and when the interview will be taken.
+This is an Assignment in which I Connect <b>Google Sheet</b> with <b>Sheety API</b> to <b>Send Email</b> to the <b>Students</b>. The Major Work in the assignment is:
+1. Add <b>Status and Date of Interview</b> after taking data from <b>Google Sheets</b>.
+2. <b>Status and Date of Interview</b> depends on the <b>number scored by Students</b>.
+3. After Adding <b>Status and Date of Interview</b> we will retrieve data again from the <b>same sheet</b> to <b>send email</b> to the <b>Student</b>.
+4. Finally the <b>Email sent</b> to the <b>Students</b> for giving <b>update</b> that they have <b>passed or failed</b> and when the <b>interview</b> will be taken.
