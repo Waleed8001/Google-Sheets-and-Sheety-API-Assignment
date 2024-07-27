@@ -122,18 +122,6 @@ def editstatus6(i_id):
     edit_data.raise_for_status()
     print(edit_data.text)  
 
-'''def writemail(iemail):
-    #email = iemail      
-    subject = "Test Update"
-    message = f"Dear {i['name']},\nyou have scored {i['obtainedMarks']} out of {i['maximumMarks']} and you have been {i['status']} and you have secure your seat of {i['department']} department.\nSo your interview is in {i['dateOfInterview']}"
-    sendmail(email,subject,message) '''
-
-'''def writemailforfailure(iemail):
-    email = iemail      
-    subject = "Test Update"
-    message = f"Dear {i['name']},\nyou have scored {i['obtainedMarks']} out of {i['maximumMarks']} and you have been {i['status']} and you have secure your seat of {i['department']} department.\nSo your interview is in {i['dateOfInterview']}"
-    sendmail(email,subject,message)'''
-
 def sendmail(email,subject,message):
     try:
         s = smtplib.SMTP(smtpgmail,emailport)
@@ -162,17 +150,9 @@ if __name__=="__main__":
                 editstatus5(i['id']) 
             else:
                 print("Error!!!")
-
-            '''email = i['email']         
-            subject = "Test Update"
-            message = f"Dear {i['name']},\nyou have scored {i['obtainedMarks']} out of {i['maximumMarks']} and you have been {i['status']} and you have secure your seat of {i['department']} department.\nSo your interview is in {i['dateOfInterview']}"
-            sendmail(email,subject,message)'''   
+                
         else:
-            editstatus6(i['id'])   
-            '''email = i['email']         
-            subject = "Test Update"
-            message = f"Dear {i['name']},\nUnfortunately you have {i['status']} because you have scored {i['obtainedMarks']} out of {i['maximumMarks']}. So you can visit our center in {i['dateOfInterview']}, if there is a seat available then we can give you if we want."
-            sendmail(email,subject,message)'''   
+            editstatus6(i['id'])      
 
     # This is for get new data (After Entering Status and Date of Interview) and send email to all the Students who gave test in the Campus.
     takedata2 = getdata()
